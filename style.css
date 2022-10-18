@@ -1,0 +1,70 @@
+@import url('');
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    color: black;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Impact';
+}
+
+.sidebar{
+    position: fixed;
+    width: 400px;
+    height: 100%;
+    left: 0;
+    background: #b68470;
+}
+.sidebar .text{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    background: #850E35;
+    letter-spacing: 1px;
+}
+nav ul{
+    background: #FFC4C4;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+nav ul li{
+    line-height: 25px;
+    border-bottom: 1px solid rgba(225,225,255,0.1);
+}
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 40px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    border-left: 3px solid transparent;
+}
+nav ul li a:hover{
+    color: cyan;
+    background: #F2EBE9;
+    border-left-color: rgb(206, 4, 4);
+}
+nav ul ul{
+    position: static;
+}
+nav ul ul li{
+    line-height: 22px;
+    border-bottom: none;
+}
+nav ul ul li a{
+    font-size: 17px;
+    color: whitesmoke;
+    padding-left: 80px;
+}
+
+.main-content {
+    height: 700px;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2018/02/12/20/07/graph-3149003_1280.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
